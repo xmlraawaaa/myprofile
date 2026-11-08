@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7fbf6" />
+    <title>Awaa Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="sparkle sparkle-one">✦</div>
+    <div class="sparkle sparkle-two">✧</div>
+    <div class="floating-clover clover-one">☘</div>
+    <div class="floating-clover clover-two">♣</div>
+
+    <header class="site-header">
+      <a class="brand" href="#home"
+        ><span class="brand-icon">☘</span> Awaa-chan desu
+      </a>
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Buka menu"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+      <nav class="navigation" id="navigation">
+        <a href="#about">about</a>
+        <a href="#interests">interests</a>
+        <a href="#favorites">favorites</a>
+        <a href="#plans">planning</a>
+        <a href="#little-facts">little facts</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"
+            ><span class="dot"></span> Welcome to my digital base.</span
+          >
+          <h1>
+            Hi I'm <span>Salwa</span><br /><em>
+              私のウェブサイトへようこそ</em
+            >
+          </h1>
+          <p class="hero-description">
+            "Analyst by instinct, coder by learning, and gamer at heart.
+            Exploring code, Greek mythology, Japanese, and fictional worlds at
+            my own pace."
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about"
+              >Get to know me <span>↗</span></a
+            >
+            <a class="text-link" href="#interests"
+              >Explore my plans & favorites ↓</a
+            >
+          </div>
+          <div class="hero-note">
+            <span>♡</span> system initialized by aley <span>♡</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="photo-sticker">
+            <span class="tape tape-top"></span>
+            <div class="photo-frame">
+              <!-- Ganti assets/foto-salwa.jpg dengan foto kamu sendiri -->
+              <img
+                src="assets/salwa.jpg"
+                alt="Foto Salwa"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <div class="photo-placeholder">
+                <span class="placeholder-icon">♡</span>
+                <strong>your photo goes here</strong>
+                <small>assets/foto-salwa.jpg</small>
+              </div>
+            </div>
+            <div class="photo-caption">that's me! <span>୨୧</span></div>
+          </div>
+          <div class="sticker sticker-clover">☘</div>
+          <div class="sticker sticker-bow">🎀</div>
+          <div class="sticker sticker-flower">✿</div>
+          <div class="tiny-label">INTP · Coder<br /></div>
+        </div>
+      </section>
+
+      <div class="marquee" aria-label="A little about Salwa">
+        <div class="marquee-track">
+          <span>keen observer</span><b>✦</b> <span>code explorer</span><b>🎮</b>
+          <span>esports dreamer</span><b>⚔️</b>
+          <span>mythology & history nerd</span><b>📜</b>
+          <span>日本語を勉強中</span><b>⛩️</b> <span>keen observer</span
+          ><b>✦</b> <span>code explorer</span><b>🎮</b>
+          <span>esports dreamer</span><b>⚔️</b>
+          <span>mythology & history nerd</span><b>📜</b>
+          <span>日本語を勉強中</span><b>⛩️</b>
+        </div>
+      </div>
+
+      <section class="section-wrap about-section" id="about">
+        <div class="section-heading reveal">
+          <span class="section-kicker">// 01. WHO AM I</span>
+          <h2>A little <em>about me</em></h2>
+          <p>Not a complete biography, just a few pages from my little book.</p>
+        </div>
+        <div class="about-grid">
+          <article class="about-card main-card reveal">
+            <span class="card-deco">୨୧</span>
+            <p class="mini-title">yow hallo all</p>
+            <h3>I'm Salwa or anything</h3>
+            <p>
+              yow ini website khusus tentang Gw, i know ga penting sih but
+              sedikit info ini web dibuat collab antara aku sama gpt jadi jangan
+              berharap banyak lah ya
+            </p>
+            <p>
+              Gw salwa or keyra or sena or anything, nama gw banyak bgt asli
+              karna keseringan join gc, If you want to know what I like, well...
+              Gw suka banget ngegali hal baru: dari nyoba bikin web pake
+              HTML/CSS/JS/PHP, bahkan sekarang gw lagi nyoba bikin game pake godot, gw juga suka belajar bahasa Jepang karna cita cita gw bisa kerja di jepang dan nikah sama anime, terus gw suka mempelajari mitologi Yunani kayak sejarah golden age, dewa dewi yunani, perang troya, peninggalan leluhur yunani dll,
+              gua juga sedikit suka sama astronomi (btw cita cita gw dulu jadi astronot tapi semenjak tau bahwa ga semua astronot bisa pulang ke bumi dalam keadaan hidup akhirnya gw ngubur mimpi itu), dan hal yang paling gw suka adalah maraton anime/drakor/j-drama dan perfilm-an lainnya.
+            </p>
+            <p>Selain itu semua gw suka banget baca, ntah itu novel, puisi, manhwa atau manga karena baca itu seru makanya hobi gua nulis, dan juga gw suka bgt sama k-pop kayak Treasure, Stray kids, Enhypen, Lngshot, Cortis, Babymonster, Itzy pokoknya banyak dah, gw suka bgt streaming lagu lagunya tiap hari, ga ada hari tanpa denger lagu k-pop, oke cukup kayaknya udah kebanyakan yapping</p>
+            <div class="signature">-salam hangat dari princess✦</div>
+          </article>
+          <article class="info-card reveal">
+            <div class="info-icon">🎀</div>
+            
+  <span class="mini-title">My profile</span>
+  <div class="info-row"><span>Name</span><strong>Salwa Nurul Faridah</strong></div>
+  <div class="info-row"><span>Other name</span><strong>Keyra / Sena / Ravyn</strong></div>
+    <div class="info-row"><span>address</span><strong> Subang, Jawa barat</strong></div>
+    <div class="info-row"><span>Birth</span><strong> 0x xxx 2010</strong></div>
+  <div class="info-row"><span>School</span><strong>SMKN 1 Subang (RPL)</strong></div>
+    <div class="info-row"><span>MBTI</span><strong> INTP</strong></div>
+    <div class="info-row"><span>Favorite person</span><strong>Kim Ryul & Eom Seonghyeon</strong></div>
+<div class="info-row"><span>Hobbies</span><strong>Playing guitar</strong></div>
+  <div class="info-row"><span>Specialty</span><strong>Sharp Instinct & Analytical Mind</strong></div>
+</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-wrap interests-section" id="interests">
+        <div class="section-heading reveal">
+          <span class="section-kicker">// 02. Things that spark joy</span>
+          <h2>Things I <em>love</em> <em>and learn</em></h2>
+          <p>A few interests that keep my curiosity alive.</p>
+        </div>
+        <div class="interest-grid">
+          <article class="interest-card reveal">
+            <span class="interest-emoji">💻</span>
+            <h3>Programming & Web Dev</h3>
+            <p>
+               Bikin website simpel, eksperimen syntax, dan kolaborasi bareng AI.
+            </p>
+            <span class="tag">HTML · CSS · JS · PHP</span>
+          </article>
+          <article class="interest-card reveal">
+            <span class="interest-emoji">🎮</span>
+            <h3>Game</h3>
+            <p>
+              Push rank sampe immo (nyata nya immo kagak pensi iya)
+            </p>
+            <span class="tag">X-borg · Akai · Shangguan </span>
+          </article>
+          <article class="interest-card reveal">
+            <span class="interest-emoji">⛩️</span>
+            <h3>Japanese Language</h3>
+            <p>
+Lagi konsisten belajar dari Hiragana ngerambat naik ke Katakana & kebudayaannya.            </p>
+            <span class="tag">ひらがな · かたかな</span>
+          </article>
+          <article class="interest-card reveal">
+            <span class="interest-emoji">🏛️</span>
+            <h3>Greek Mythology</h3>
+            <p>
+              Terpikat sama kisah dewa-dewi Yunani kuno-Athena my favorite, makhluk mitologi, dan sejarah peradaban yunani.
+            </p>
+            <span class="tag">ancient history · cosmos · Troya</span>
+          </article>
+          <article class="interest-card reveal">
+            <span class="interest-emoji">📖</span>
+            <h3>Stories, Manga & Manhwa</h3>
+            <p>
+              Suka baca novel, komik, manhwa sampai nulis cerpen/novel.
+            </p>
+            <span class="tag">AOT · Haikyuu · IWBU</span>
+          </article>
+          <article class="interest-card reveal">
+            <span class="interest-emoji">🎸</span>
+            <h3>Arts & Music</h3>
+            <p>
+              Playing gitar or ngapalin chord kalo lagi bosen dan sesekali ngagambar
+            </p>
+            <span class="tag">drawing · guitar · chording</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <div class="quote-leaf">☘</div>
+        <p class="quote-label">a little reminder</p>
+        <blockquote>
+          “I'm allowed to be a work in progress and still be proud of how far
+          I've come.”
+        </blockquote>
+        <span class="quote-flourish">✧ ୨୧ ✧</span>
+      </section>
+
+      <section class="section-wrap favorites-section" id="favorites">
+        <div class="section-heading reveal">
+          <span class="section-kicker">// 03. My comfort things</span>
+          <h2>Some of my <em>favorites</em></h2>
+          <p>Little things that make my world feel more like mine.</p>
+        </div>
+        <div class="favorites-grid">
+          <div class="favorite-tile reveal">
+            <span>🌿</span>
+            <div>
+              <small>color mood</small
+              ><strong>Soft green & Lavender</strong>
+            </div>
+          </div>
+          <div class="favorite-tile reveal">
+            <span>🍜</span>
+            <div>
+              <small>Comfort Food</small
+              ><strong>Seblak, Maklor, Lumpia basah</strong>
+            </div>
+          </div>
+          <div class="favorite-tile reveal">
+            <span>🏐</span>
+            <div>
+              <small>anime fav</small><strong>Haikyuu, AOT, Isekai</strong>
+            </div>
+          </div>
+          <div class="favorite-tile reveal">
+            <span>🍵</span>
+            <div>
+              <small>little joy</small
+              ><strong>Matcha & Japanese café vibes</strong>
+            </div>
+          </div>
+          <div class="favorite-tile reveal">
+            <span>✨</span>
+            <div>
+              <small>favorite character/person</small
+              ><strong>Ryul, Kageyama, Gimyung</strong>
+            </div>
+          </div>
+          <div class="favorite-tile reveal">
+            <span>📺</span>
+            <div>
+              <small>KDrama</small
+              ><strong>True Beauty & Asian Dramas</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap plans-section" id="plans">
+        <div class="section-heading reveal">
+          <span class="section-kicker">// 04. Future roadmap</span>
+          <h2>My <em>Future Plans</em></h2>
+    <p>Beberapa skenario masa depan yang lagi gw susun.</p>
+  </div>
+  <div class="interest-grid">
+    <div class="interest-card reveal">
+      <h3>Plan A: Jadi pekerja korporat</h3>
+      <p>Kerja di industri sesuai jurusan ➔ Beli barang yang gw pengenin ➔ beli sapi buat masak rendang se kampung</p>
+    </div>
+    <div class="interest-card reveal">
+      <h3>Plan B: Go to japan</h3>
+      <p>Peluang kerja di Jepang ➔ Kumpulin duit biar bisa eksplor Disneyland ➔ Pulang bawa pengalaman & hasil.</p>
+    </div>
+    <div class="interest-card reveal">
+      <h3>Plan C: Solo Business</h3>
+      <p>Buka bisnis top-up/joki game ➔ Bikin unit usaha mandiri ➔ kembangin bisnis jokian.</p>
+    </div>
+    <div class="interest-card reveal">
+      <h3>Plan D: Esports</h3>
+      <p>Ikut turnamen mole ➔ Join pro-scene esports ➔ Jadi pro player terkenal.</p>
+    </div>
+    <div class="interest-card reveal">
+      <h3>Plan E: Hacking</h3>
+      <p>Asah skill hacking ➔ hack akun pejabat/negara ➔ minta tebusan 10 miliar ➔ Ulangi terus sampe kebeli mclaren.</p>
+    </div>
+    <div class="interest-card reveal">
+      <h3>Plan F: Panel of judges</h3>
+      <p>Kuliah di FHUI➔ lulus S1 ➔ Jadi majelis hakim di kejaksaan.</p>
+    </div>
+        </div>
+      </section>
+
+      <section class="section-wrap facts-section" id="little-facts">
+      <div class="section-heading">
+        <span class="section-kicker">// 05. Tiny details</span>
+        <h2>Little facts <em>about me</em></h2>
+      </div>
+      <div class="facts-card">
+        <div class="fact-item">
+          <span class="fact-number">01</span>
+          <p><strong>Mati Rasa:</strong> Udah agak mati rasa sama urusan perasaan ke orang lain, terakhir beneran jatuh cinta tuh pas SMP.</p>
+        </div>
+        <div class="fact-item">
+          <span class="fact-number">02</span>
+          <p><strong>Master of Masking:</strong> Banyak hal yang sebenarnya gw ga suka tapi ga pernah diungkapin di depan orang. Banyak yang ngira gw fine-fine aja, padahal aslinya enggak jirlah.</p>
+        </div>
+        <div class="fact-item">
+          <span class="fact-number">03</span>
+          <p><strong>Chill & Adaptable:</strong> Aslinya ramah, asik, dan tipe orang yang bisa nyocokin diri sama sifat atau hobi orang lain jadi tinggal dibawa santai aja.</p>
+        </div>
+        <div class="fact-item">
+          <span class="fact-number">04</span>
+          <p><strong>Fast Learner:</strong> Gampang penasaran sama hal baru (coding, mitologi, bahasa) dan belajar dengan cepat saat dapet spark.</p>
+        </div>      </div>
+    </section>
+
+      <section class="closing-section">
+        <div class="closing-flower">✿</div>
+        <p class="section-kicker">thanks for stopping by</p>
+        <h2>That's a little piece<br />of <em>my?.</em></h2>
+        <p>
+          There's always more to discover. System standing by. ♡
+        </p>
+        <a href="#home" class="button button-primary">Back to the top ↑</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Aley-made by Princess from sukamelang kesukaan kalian</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
